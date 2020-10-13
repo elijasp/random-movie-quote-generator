@@ -107,7 +107,6 @@ const autoQuoteChange = () => {
   setInterval(printQuote, 10 * 1000);
 }
 
-// == Event Listener ==
-// 
+// click event listener on show another quote button 
 document.getElementById('load-quote').addEventListener("click", printQuote, false);
 autoQuoteChange();
